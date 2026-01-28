@@ -23,7 +23,7 @@
 
 <div align="center"> 
   <h3>🛠️ Tech Stack</h3>
-</div>
+</div><br>
 
 <div align="center">
   <!-- Languages -->
