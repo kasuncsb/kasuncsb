@@ -1,0 +1,30 @@
+name: Update Streak Stats (Metrics)
+
+on:
+  schedule:
+    - cron: "0 */4 * * *" # Run every 4 hours
+  workflow_dispatch: # Allows manual run
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Generate Contribution Graph
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-streak-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_timezone: Asia/Colombo
+          experimental_features: --optimize-svg
+          # Custom Style for Green-Cyan Theme
+          extras_css: |
+            .isocalendar-day { fill: #00ffc8 !important; }
+            .isocalendar-day[data-count="0"] { fill: #161b22 !important; }
+            text { fill: #8B949E !important; }
