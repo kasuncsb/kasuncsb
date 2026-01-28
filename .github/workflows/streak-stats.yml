@@ -7,19 +7,24 @@ on:
 
 jobs:
   build:
-    name: Update Streak Stats
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v3
-
-      - name: Generate Streak Stats SVG
-        run: |
-          curl -L -o github-streak-stats.svg "https://streak-stats.demolab.com/?user=KasunCSB&theme=tokyonight&hide_border=true&background=0D1117&stroke=00ffc8&ring=00ffc8&fire=00ffc8&currStreakNum=00ffc8&currStreakLabel=8B949E&sideNums=00ffc8&sideLabels=8B949E&dates=8B949E"
-
-      - name: Commit & Push
-        uses: stefanzweifel/git-auto-commit-action@v4
+      
+      - name: Generate Streak Stats (Isocalendar)
+        uses: lowlighter/metrics@latest
         with:
-          commit_message: "Update streak stats [skip ci]"
-          file_pattern: github-streak-stats.svg
+          filename: github-streak-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_timezone: Asia/Colombo # Optional: Set user's timezone if known, defaults to UTC
+          experimental_features: --optimize-svg
+          # Customization to match Tokyo Night theme
+          config_style: |
+            .isocalendar-day { fill: #00ffc8 !important; }
+            .isocalendar-day[data-count="0"] { fill: #161b22 !important; }
+            text { fill: #8B949E !important; }
