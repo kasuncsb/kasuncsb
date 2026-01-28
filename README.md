@@ -72,14 +72,14 @@
 
 <div align="center">
   <h3>🔗 Connect & Support</h3>
+  <a href="mailto:me@kasunc.uk">
+    <img src="https://img.shields.io/badge/Email_Me-FF4500?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me" />
+  </a>
   <a href="https://www.linkedin.com/in/kasuncsb/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://kasunc.uk/" target="_blank">
     <img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
-  </a>
-  <a href="mailto:me@kasunc.uk">
-    <img src="https://img.shields.io/badge/Email_Me-FF4500?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me" />
   </a>
   <a href="https://buymeacoffee.com/kasuncsb" target="_blank">
     <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
