@@ -59,12 +59,12 @@
 <div align="center">
   <h3>📊 GitHub Stats</h3>
     <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=KasunCSB&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2ea44f&icon_color=2ea44f&text_color=8B949E" alt="Stats" />
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KasunCSB&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2ea44f&text_color=8B949E" alt="Languages" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=KasunCSB&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffc8&icon_color=00ffc8&text_color=8B949E" alt="Stats" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KasunCSB&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffc8&text_color=8B949E" alt="Languages" />
   </a>
   <br>
   <a href="https://github.com/ashutosh00710/github-readme-streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=KasunCSB&theme=tokyonight&hide_border=true&background=0D1117&stroke=2ea44f&ring=2ea44f&fire=2ea44f&currStreakNum=2ea44f&currStreakLabel=8B949E&sideNums=2ea44f&sideLabels=8B949E&dates=8B949E" alt="Streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=KasunCSB&theme=tokyonight&hide_border=true&background=0D1117&stroke=00ffc8&ring=00ffc8&fire=00ffc8&currStreakNum=00ffc8&currStreakLabel=8B949E&sideNums=00ffc8&sideLabels=8B949E&dates=8B949E" alt="Streak" />
   </a>
 </div>
 
