@@ -87,7 +87,7 @@
   <a href="https://www.paypal.com/paypalme/AnonymousVX22" target="_blank">
     <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" />
   </a>
-</div><br><br>
+</div><br>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=KasunCSB&label=Profile%20Views&color=0e75b6&style=flat" alt="KasunCSB" />
