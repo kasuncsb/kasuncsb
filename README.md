@@ -90,5 +90,9 @@
 </div>
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=KasunCSB&label=Profile%20Views&color=0e75b6&style=flat" alt="KasunCSB" />
+</p>
+
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=random&height=60&section=footer"/>
 </p>
