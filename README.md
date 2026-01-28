@@ -64,7 +64,7 @@
   </a>
   <br>
   <a href="https://github.com/ashutosh00710/github-readme-streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=KasunCSB&theme=tokyonight&hide_border=true&background=0D1117&stroke=00ffc8&ring=00ffc8&fire=00ffc8&currStreakNum=00ffc8&currStreakLabel=8B949E&sideNums=00ffc8&sideLabels=8B949E&dates=8B949E" alt="Streak" />
+    <img src="./github-streak-stats.svg" alt="Streak" />
   </a>
 </div>
 

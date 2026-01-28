@@ -1,0 +1,25 @@
+name: Fetch Streak Stats
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Run every 6 hours
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  fetch-streak:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Fetch Streak Stats SVG
+        run: |
+          # Fetch from Heroku (or fallback to Demolab if needed) using the custom Green-Cyan theme
+          curl -L -f -o github-streak-stats.svg "https://github-readme-streak-stats.herokuapp.com/?user=KasunCSB&theme=tokyonight&hide_border=true&background=0D1117&stroke=00ffc8&ring=00ffc8&fire=00ffc8&currStreakNum=00ffc8&currStreakLabel=8B949E&sideNums=00ffc8&sideLabels=8B949E&dates=8B949E" || curl -L -f -o github-streak-stats.svg "https://streak-stats.demolab.com/?user=KasunCSB&theme=tokyonight&hide_border=true&background=0D1117&stroke=00ffc8&ring=00ffc8&fire=00ffc8&currStreakNum=00ffc8&currStreakLabel=8B949E&sideNums=00ffc8&sideLabels=8B949E&dates=8B949E"
+
+      - name: Commit & Push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update streak stats [skip ci]"
+          file_pattern: github-streak-stats.svg
