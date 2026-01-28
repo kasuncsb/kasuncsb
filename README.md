@@ -64,7 +64,7 @@
   </a>
   <br>
   <a href="https://github.com/ashutosh00710/github-readme-streak-stats">
-    <img src="./github-streak-stats.svg" alt="Streak" />
+    <img src=".github/stats.svg" alt="Streak" />
   </a>
 </div>
 
@@ -87,11 +87,11 @@
   <a href="https://www.paypal.com/paypalme/AnonymousVX22" target="_blank">
     <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" />
   </a>
-</div>
+</div><br><br>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=KasunCSB&label=Profile%20Views&color=0e75b6&style=flat" alt="KasunCSB" />
-</p>
+</p><br>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=random&height=60&section=footer"/>
