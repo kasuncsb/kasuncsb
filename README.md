@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,255,255,30&height=120&section=header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=random&height=120&section=header"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&pause=1000&color=2E91FA&center=true&vCenter=true&width=800&lines=Hi+there!+%F0%9F%91%8B+I'm+Kasun+Chanaka;Cybersecurity+%7C+Networking+%7C+UI%2FUX;Full+Stack+%26+Mobile+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&pause=1000&color=39ff14&center=true&vCenter=true&width=800&lines=Hi+there!+%F0%9F%91%8B+I'm+Kasun+Chanaka;Cybersecurity+%7C+Networking+%7C+UI%2FUX;Full+Stack+%26+Mobile+Developer" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -59,12 +59,12 @@
 <div align="center">
   <h3>📊 GitHub Stats</h3>
     <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=KasunCSB&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E" alt="Stats" />
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KasunCSB&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E" alt="Languages" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=KasunCSB&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=39ff14&icon_color=39ff14&text_color=8B949E" alt="Stats" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KasunCSB&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=39ff14&text_color=8B949E" alt="Languages" />
   </a>
   <br>
   <a href="https://github.com/ashutosh00710/github-readme-streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=KasunCSB&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakNum=58A6FF&currStreakLabel=8B949E&sideNums=58A6FF&sideLabels=8B949E&dates=8B949E" alt="Streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=KasunCSB&theme=tokyonight&hide_border=true&background=0D1117&stroke=39ff14&ring=39ff14&fire=39ff14&currStreakNum=39ff14&currStreakLabel=8B949E&sideNums=39ff14&sideLabels=8B949E&dates=8B949E" alt="Streak" />
   </a>
 </div>
 
@@ -90,5 +90,5 @@
 </div>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,255,255,30&height=60&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=random&height=60&section=footer"/>
 </p>
