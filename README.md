@@ -27,28 +27,28 @@
 
 <div align="center">
   <!-- Languages -->
-  <strong>Languages</strong><br>
+  <div><strong>Languages</strong></div>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=c,cpp,cs,python,java,bash,kotlin,dart,js,html,css,ts&perline=12" />
   </a>
   <br><br>
 
   <!-- Frontend & Design -->
-  <strong>Frontend & Design</strong><br>
+  <div><strong>Frontend & Design</strong></div>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=react,nextjs,vite,flutter,tailwind,figma&perline=6" />
   </a>
   <br><br>
 
   <!-- Backend & Database -->
-  <strong>Backend & Database</strong><br>
+  <div><strong>Backend & Database</strong></div>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=nodejs,express,mysql,mongodb,postgres,firebase,redis&perline=8" />
   </a>
   <br><br>
 
   <!-- Cloud & DevOps -->
-  <strong>Cloud & DevOps</strong><br>
+  <div><strong>Cloud & DevOps</strong></div>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,githubactions,docker,nginx,linux,kali,azure,gcp,vercel,cloudflare&perline=10" />
   </a>
