@@ -24,7 +24,7 @@ jobs:
           config_timezone: Asia/Colombo # Optional: Set user's timezone if known, defaults to UTC
           experimental_features: --optimize-svg
           # Customization to match Tokyo Night theme
-          config_style: |
+          extras_css: |
             .isocalendar-day { fill: #00ffc8 !important; }
             .isocalendar-day[data-count="0"] { fill: #161b22 !important; }
             text { fill: #8B949E !important; }
