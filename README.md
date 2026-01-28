@@ -23,7 +23,7 @@
 
 <div align="center"> 
   <h3>🛠️ Tech Stack</h3>
-</div><br>
+</div>
 
 <div align="center">
   <!-- Languages -->
@@ -86,7 +86,6 @@
   </a>
 </div>
 
----
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,255,255,30&height=60&section=footer"/>
 </p>
