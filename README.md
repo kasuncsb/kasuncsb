@@ -26,17 +26,50 @@
 </div>
 
 <div align="center">
+  <!-- Languages -->
+  <strong>Languages</strong><br>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=c,cpp,cs,python,java,bash,kotlin,dart,js,html,css,ts&perline=12" />
   </a>
   <br><br>
+
+  <!-- Frontend & Design -->
+  <strong>Frontend & Design</strong><br>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,vite,flutter&perline=6" />
+    <img src="https://skillicons.dev/icons?i=react,nextjs,vite,flutter,tailwind,figma&perline=6" />
   </a>
   <br><br>
+
+  <!-- Backend & Database -->
+  <strong>Backend & Database</strong><br>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=kali,docker,nginx,mysql,mongodb,linux&perline=6" />
+    <img src="https://skillicons.dev/icons?i=nodejs,express,mysql,mongodb,postgres,firebase,redis&perline=8" />
   </a>
+  <br>
+  <!-- Oracle & Others not in skill-icons (fallback/mixed) -->
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />
+  <br><br>
+
+  <!-- Cloud & DevOps -->
+  <strong>Cloud & DevOps</strong><br>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,githubactions,docker,nginx,linux,kali,azure,gcp,vercel,cloudflare&perline=10" />
+  </a>
+  <br>
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render" />
+  <br><br>
+
+  <!-- Security & Platforms -->
+  <strong>Security & Platforms</strong><br>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=hackerrank,stackoverflow&perline=2" />
+  </a>
+  <br>
+  <img src="https://img.shields.io/badge/HackerOne-1B1F23?style=for-the-badge&logo=hackerone&logoColor=white" alt="HackerOne" />
+  <img src="https://img.shields.io/badge/XDA-F59E0B?style=for-the-badge&logo=xda-developers&logoColor=white" alt="XDA" />
+  <img src="https://img.shields.io/badge/VirusTotal-394EFF?style=for-the-badge&logo=virustotal&logoColor=white" alt="VirusTotal" />
+  <img src="https://img.shields.io/badge/Intezer-000000?style=for-the-badge&logo=intezer&logoColor=white" alt="Intezer" />
+  <img src="https://img.shields.io/badge/VirusShare-8B0000?style=for-the-badge&logo=virusshare&logoColor=white" alt="VirusShare" />
 </div>
 
 <br>
