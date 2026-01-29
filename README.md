@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="Welcome.gif" alt="Welcome" width="100%" />
+  <img src="Welcome.gif" alt="Welcome" width="20%" />
 </div>
 
 <div align="center">
