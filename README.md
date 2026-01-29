@@ -7,7 +7,7 @@
 </div><br>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=Hi+there!+%F0%9F%91%8B+I'm+Kasun+Chanaka;Cybersecurity+%7C+Networking+%7C+UI%2FUX;Full+Stack+%26+Mobile+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=Hi+there!+%F0%9F%91%8B+I'm+Kasun+Chanaka;Cybersecurity+%7C+Networking+%7C+UI%2FUX;System+Administration+%26+Automation" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -16,12 +16,12 @@
 
 <p align="center">
   I'm a passionate developer specializing in <strong>Cybersecurity, Networking, and UI/UX Design</strong>. <br>
-  I love exploring new technologies and solving complex problems across the full stack.
+  I love exploring new technologies and solving complex problems across various fields.
 </p>
 
 <p align="center">
   🔭 Check out my work at <strong><a href="https://kasunc.uk/">kasunc.uk</a></strong><br>
-  💬 Ask me about <strong>Cybersecurity, Networking, Full Stack Development</strong><br>
+  💬 Ask me about <strong>Cybersecurity, Networking & System Administration</strong><br>
   📫 Reach me at <strong><a href="https://www.linkedin.com/in/kasuncsb/">LinkedIn</a></strong>
 </p>
 
