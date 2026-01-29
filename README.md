@@ -3,6 +3,10 @@
 </div>
 
 <div align="center">
+  <img src="Welcome.gif" alt="Welcome" width="100%" />
+</div>
+
+<div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=Hi+there!+%F0%9F%91%8B+I'm+Kasun+Chanaka;Cybersecurity+%7C+Networking+%7C+UI%2FUX;Full+Stack+%26+Mobile+Developer" alt="Typing SVG" />
 </div>
 
