@@ -20,9 +20,9 @@
 </p>
 
 <p align="center">
-  🔭 Check out my work at <strong><a href="https://kasunc.uk/">kasunc.uk</a></strong><br>
+  🔭 Check out my work at <strong><a href="https://kasunc.uk/" target="_blank">kasunc.uk</a></strong><br>
   💬 Ask me about <strong>Cybersecurity, Networking & System Administration</strong><br>
-  📫 Reach me at <strong><a href="https://www.linkedin.com/in/kasuncsb/">LinkedIn</a></strong>
+  📫 Reach me at <strong><a href="https://www.linkedin.com/in/kasuncsb/" target="_blank">LinkedIn</a></strong>
 </p>
 
 <div align="center"> 
