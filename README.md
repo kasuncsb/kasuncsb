@@ -32,44 +32,32 @@
 <div align="center">
   <!-- Languages -->
   <div><strong>Languages</strong></div><br>
-  <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=c,cpp,cs,python,java,bash,kotlin,dart,js,html,css,ts&perline=12" />
-  </a>
   <br><br>
 
   <!-- Frontend & Design -->
   <div><strong>Frontend & Design</strong></div><br>
-  <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=react,nextjs,vite,flutter,tailwind,figma&perline=6" />
-  </a>
   <br><br>
 
   <!-- Backend & Database -->
   <div><strong>Backend & Database</strong></div><br>
-  <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=nodejs,express,mysql,mongodb,postgres,firebase,redis&perline=8" />
-  </a>
   <br><br>
 
   <!-- Cloud & DevOps -->
   <div><strong>Cloud & DevOps</strong></div><br>
-  <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,githubactions,docker,nginx,linux,kali,azure,gcp,vercel,cloudflare&perline=10" />
-  </a>
 </div>
 
 <br>
 
 <div align="center">
   <h3>📊 GitHub Stats</h3>
-    <a href="https://github.com/anuraghazra/github-readme-stats">
     <img height="180" src=".github/github-stats.svg" alt="Stats" />
     <img height="180" src=".github/top-langs.svg" alt="Languages" />
-  </a>
   <br>
-  <a href="https://github.com/ashutosh00710/github-readme-streak-stats">
     <img src=".github/stats.svg" alt="Streak" />
-  </a>
 </div>
 
 <br>
