@@ -23,9 +23,12 @@ jobs:
         run: |
           git clone https://github.com/anuraghazra/github-readme-stats.git
           cd github-readme-stats
-          npm install
-          npm install express wait-on
           
+          # Install dependencies quietly and attempt to fix vulnerabilities
+          npm install --no-fund --no-audit --silent
+          npm audit fix --force --audit-level=high || true
+          npm install express wait-on --no-save --no-fund --no-audit --silent
+
           # Create a simple server script
           cat <<'EOF' > server.js
           import express from 'express';
@@ -38,15 +41,17 @@ jobs:
           app.get('/api', statsHandler);
           app.get('/api/top-langs', topLangsHandler);
           
-          app.listen(port, () => {
+          // Explicitly bind to IPv4 loopback
+          app.listen(port, '127.0.0.1', () => {
             console.log(`Server started on port ${port}`);
           });
           EOF
 
-          # Start server in background
-          node server.js &
-          # Wait for server to start
-          npx wait-on http://localhost:9000
+          # Start server in background with output redirection to prevent hanging
+          node server.js > server.log 2>&1 &
+          
+          # Wait for server to start (check TCP port explicitly)
+          npx wait-on tcp:127.0.0.1:9000 --timeout 30000
         env:
           # Use the token provided by Actions or a PAT if available
           PAT_1: ${{ secrets.GITHUB_TOKEN }} 
