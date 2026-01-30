@@ -17,21 +17,38 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 22
 
       - name: Install & Run github-readme-stats
         run: |
           git clone https://github.com/anuraghazra/github-readme-stats.git
           cd github-readme-stats
           npm install
-          # Build isn't strictly necessary for dev mode, but good for stability if offered
+          npm install express wait-on
+          
+          # Create a simple server script
+          cat <<'EOF' > server.js
+          import express from 'express';
+          import statsHandler from './api/index.js';
+          import topLangsHandler from './api/top-langs.js';
+          
+          const app = express();
+          const port = 9000;
+          
+          app.get('/api', statsHandler);
+          app.get('/api/top-langs', topLangsHandler);
+          
+          app.listen(port, () => {
+            console.log(`Server started on port ${port}`);
+          });
+          EOF
+
           # Start server in background
-          npm start &
+          node server.js &
           # Wait for server to start
           npx wait-on http://localhost:9000
         env:
           # Use the token provided by Actions or a PAT if available
-          # GITHUB_TOKEN is usually sufficient for public repos
           PAT_1: ${{ secrets.GITHUB_TOKEN }} 
 
       - name: Fetch Stats
