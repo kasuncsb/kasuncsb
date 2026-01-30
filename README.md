@@ -32,22 +32,53 @@
 <div align="center">
   <!-- Languages -->
   <div><strong>Languages</strong></div><br>
-    <img src="https://skillicons.dev/icons?i=c,cpp,cs,python,java,bash,kotlin,dart,js,html,css,ts&perline=12" />
+    <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"><img src="https://skillicons.dev/icons?i=c" /></a>
+    <a href="https://isocpp.org/" target="_blank"><img src="https://skillicons.dev/icons?i=cpp" /></a>
+    <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank"><img src="https://skillicons.dev/icons?i=cs" /></a>
+    <a href="https://www.python.org/" target="_blank"><img src="https://skillicons.dev/icons?i=python" /></a>
+    <a href="https://www.java.com/" target="_blank"><img src="https://skillicons.dev/icons?i=java" /></a>
+    <a href="https://www.gnu.org/software/bash/" target="_blank"><img src="https://skillicons.dev/icons?i=bash" /></a>
+    <a href="https://kotlinlang.org/" target="_blank"><img src="https://skillicons.dev/icons?i=kotlin" /></a>
+    <a href="https://dart.dev/" target="_blank"><img src="https://skillicons.dev/icons?i=dart" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://skillicons.dev/icons?i=js" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://skillicons.dev/icons?i=html" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://skillicons.dev/icons?i=css" /></a>
+    <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://skillicons.dev/icons?i=ts" /></a>
   <br><br>
 
   <!-- Frontend & Design -->
   <div><strong>Frontend & Design</strong></div><br>
-    <img src="https://skillicons.dev/icons?i=react,nextjs,vite,flutter,tailwind,figma&perline=6" />
+    <a href="https://react.dev/" target="_blank"><img src="https://skillicons.dev/icons?i=react" /></a>
+    <a href="https://nextjs.org/" target="_blank"><img src="https://skillicons.dev/icons?i=nextjs" /></a>
+    <a href="https://vitejs.dev/" target="_blank"><img src="https://skillicons.dev/icons?i=vite" /></a>
+    <a href="https://flutter.dev/" target="_blank"><img src="https://skillicons.dev/icons?i=flutter" /></a>
+    <a href="https://tailwindcss.com/" target="_blank"><img src="https://skillicons.dev/icons?i=tailwind" /></a>
+    <a href="https://www.figma.com/" target="_blank"><img src="https://skillicons.dev/icons?i=figma" /></a>
   <br><br>
 
   <!-- Backend & Database -->
   <div><strong>Backend & Database</strong></div><br>
-    <img src="https://skillicons.dev/icons?i=nodejs,express,mysql,mongodb,postgres,firebase,redis&perline=8" />
+    <a href="https://nodejs.org/" target="_blank"><img src="https://skillicons.dev/icons?i=nodejs" /></a>
+    <a href="https://expressjs.com/" target="_blank"><img src="https://skillicons.dev/icons?i=express" /></a>
+    <a href="https://www.mysql.com/" target="_blank"><img src="https://skillicons.dev/icons?i=mysql" /></a>
+    <a href="https://www.mongodb.com/" target="_blank"><img src="https://skillicons.dev/icons?i=mongodb" /></a>
+    <a href="https://www.postgresql.org/" target="_blank"><img src="https://skillicons.dev/icons?i=postgres" /></a>
+    <a href="https://firebase.google.com/" target="_blank"><img src="https://skillicons.dev/icons?i=firebase" /></a>
+    <a href="https://redis.io/" target="_blank"><img src="https://skillicons.dev/icons?i=redis" /></a>
   <br><br>
 
   <!-- Cloud & DevOps -->
   <div><strong>Cloud & DevOps</strong></div><br>
-    <img src="https://skillicons.dev/icons?i=git,githubactions,docker,nginx,linux,kali,azure,gcp,vercel,cloudflare&perline=10" />
+    <a href="https://git-scm.com/" target="_blank"><img src="https://skillicons.dev/icons?i=git" /></a>
+    <a href="https://github.com/features/actions" target="_blank"><img src="https://skillicons.dev/icons?i=githubactions" /></a>
+    <a href="https://www.docker.com/" target="_blank"><img src="https://skillicons.dev/icons?i=docker" /></a>
+    <a href="https://nginx.org/" target="_blank"><img src="https://skillicons.dev/icons?i=nginx" /></a>
+    <a href="https://www.linux.org/" target="_blank"><img src="https://skillicons.dev/icons?i=linux" /></a>
+    <a href="https://www.kali.org/" target="_blank"><img src="https://skillicons.dev/icons?i=kali" /></a>
+    <a href="https://azure.microsoft.com/" target="_blank"><img src="https://skillicons.dev/icons?i=azure" /></a>
+    <a href="https://cloud.google.com/" target="_blank"><img src="https://skillicons.dev/icons?i=gcp" /></a>
+    <a href="https://vercel.com/" target="_blank"><img src="https://skillicons.dev/icons?i=vercel" /></a>
+    <a href="https://www.cloudflare.com/" target="_blank"><img src="https://skillicons.dev/icons?i=cloudflare" /></a>
 </div>
 
 <br>
