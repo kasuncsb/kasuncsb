@@ -63,8 +63,8 @@
 <div align="center">
   <h3>📊 GitHub Stats</h3>
     <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=KasunCSB&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffc8&icon_color=00ffc8&text_color=8B949E" alt="Stats" />
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KasunCSB&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffc8&text_color=8B949E" alt="Languages" />
+    <img height="180" src=".github/github-stats.svg" alt="Stats" />
+    <img height="180" src=".github/top-langs.svg" alt="Languages" />
   </a>
   <br>
   <a href="https://github.com/ashutosh00710/github-readme-streak-stats">

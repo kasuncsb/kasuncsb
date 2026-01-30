@@ -1,0 +1,49 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' # Run every 12 hours
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install & Run github-readme-stats
+        run: |
+          git clone https://github.com/anuraghazra/github-readme-stats.git
+          cd github-readme-stats
+          npm install
+          # Build isn't strictly necessary for dev mode, but good for stability if offered
+          # Start server in background
+          npm start &
+          # Wait for server to start
+          npx wait-on http://localhost:9000
+        env:
+          # Use the token provided by Actions or a PAT if available
+          # GITHUB_TOKEN is usually sufficient for public repos
+          PAT_1: ${{ secrets.GITHUB_TOKEN }} 
+
+      - name: Fetch Stats
+        run: |
+          mkdir -p .github
+          # General Stats
+          curl -o .github/github-stats.svg "http://localhost:9000/api?username=KasunCSB&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffc8&icon_color=00ffc8&text_color=8B949E"
+          # Top Languages
+          curl -o .github/top-langs.svg "http://localhost:9000/api/top-langs/?username=KasunCSB&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffc8&text_color=8B949E"
+
+      - name: Commit & Push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update GitHub stats [skip ci]"
+          file_pattern: .github/*.svg
