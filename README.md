@@ -79,6 +79,7 @@
     <a href="https://cloud.google.com/" target="_blank"><img src="https://skillicons.dev/icons?i=gcp" /></a>
     <a href="https://vercel.com/" target="_blank"><img src="https://skillicons.dev/icons?i=vercel" /></a>
     <a href="https://www.cloudflare.com/" target="_blank"><img src="https://skillicons.dev/icons?i=cloudflare" /></a>
+    <a href="https://n8n.io/" target="_blank"><img src="https://skillicons.dev/icons?i=n8n" /></a>
 </div>
 
 <br>
