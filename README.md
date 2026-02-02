@@ -79,7 +79,7 @@
     <a href="https://cloud.google.com/" target="_blank"><img src="https://skillicons.dev/icons?i=gcp" /></a>
     <a href="https://vercel.com/" target="_blank"><img src="https://skillicons.dev/icons?i=vercel" /></a>
     <a href="https://www.cloudflare.com/" target="_blank"><img src="https://skillicons.dev/icons?i=cloudflare" /></a>
-    <a href="https://n8n.io/" target="_blank"><img src="https://cdn.simpleicons.org/n8n/EA4B71" height="48" width="48" style="background:#242938;border-radius:4px;padding:4px" /></a>
+    <a href="https://n8n.io/" target="_blank"><img src="https://cdn.simpleicons.org/n8n/EA4B71" height="40" width="40" style="background:#242938;border-radius:6px;padding:6px" /></a>
 </div>
 
 <br>
