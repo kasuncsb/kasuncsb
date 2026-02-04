@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=random&height=120&section=header"/>
+  <img src=".github/assets/header_wave.svg" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="Welcome.gif" alt="Welcome" width="35%" />
+  <img src=".github/assets/welcome.gif" alt="Welcome" width="35%" />
 </div><br>
 
 <div align="center">
@@ -108,5 +108,5 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=random&height=100&section=footer"/>
+  <img src=".github/assets/footer_wave.svg" width="100%"/>
 </p>
