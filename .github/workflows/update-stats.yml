@@ -60,9 +60,9 @@ jobs:
         run: |
           mkdir -p .github
           # General Stats
-          curl -o .github/github-stats.svg "http://localhost:9000/api?username=KasunCSB&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffc8&icon_color=00ffc8&text_color=8B949E"
+          curl -o .github/github-stats.svg "http://localhost:9000/api?username=KasunCSB&show_icons=true&theme=tokyonight&hide_border=true&bg_color=transparent&title_color=00ffc8&icon_color=00ffc8&text_color=8B949E"
           # Top Languages
-          curl -o .github/top-langs.svg "http://localhost:9000/api/top-langs/?username=KasunCSB&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffc8&text_color=8B949E"
+          curl -o .github/top-langs.svg "http://localhost:9000/api/top-langs/?username=KasunCSB&layout=compact&theme=tokyonight&hide_border=true&bg_color=transparent&title_color=00ffc8&text_color=8B949E"
 
       - name: Commit & Push
         uses: stefanzweifel/git-auto-commit-action@v4
